@@ -1,0 +1,15 @@
+pub_key = "17239353681454044630080728414290368930190104314160127523418669506028556678580"
+rand = ["0x10a441a1ef39e97aceca3f80745c0ffdd7806d3cb4545518a7f2e9c90304f6de", "0x11a441a1ef39e97aceca3f80745c0ffdd7806d3cb4545518a7f2e9c90304f6d1", "0x11a441a1ef39e97aceca3f80745c0ffdd7806d3cb4545512a7f2e9c90304f6d1"]
+shuffle_order = ["2", "1", "0"]
+
+[[deck]]
+blinding_factor = "1"
+value = "1"
+
+[[deck]]
+blinding_factor = "1"
+value = "2"
+
+[[deck]]
+blinding_factor = "1"
+value = "3"

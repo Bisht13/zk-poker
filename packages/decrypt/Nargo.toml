@@ -1,0 +1,8 @@
+[package]
+name = "decrypt"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.36.0"
+
+[dependencies]
+utils = { path = "../utils" }
