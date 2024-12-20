@@ -1,0 +1,9 @@
+[package]
+name = "shuffle_recursive"
+type = "bin"
+authors = ["Aditya Bisht <adityabisht@gmail.com>"]
+compiler_version = ">=0.36.0"
+
+[dependencies]
+bignum = { tag = "v0.4.2", git = "https://github.com/noir-lang/noir-bignum" }
+utils = { path = "../utils" }

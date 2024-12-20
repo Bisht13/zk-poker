@@ -7,6 +7,7 @@ fn decrypt_card(card: Card, priv_key: Field) -> Card {
     }
 }
 
+#[recursive]
 fn main(priv_key: Field, pub_key: pub Field, deck: pub [Card; 3]) -> pub [Card; 3] {
     assert(pub_key == pow(g, priv_key));
 
